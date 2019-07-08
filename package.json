@@ -1,21 +1,23 @@
 {
-  "name": "vanilla-pubsub",
-  "version": "1.0.0",
-  "description": "",
+  "name": "tiny-pubsub",
+  "version": "1.0.1",
+  "description": "a tiny event handling library with no dependencies",
+	"files": ["pubsub.js", "LICENSE"],
+	"main": "pubsub.js",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LukeWood/vanilla-pubsub.git"
+    "url": "git+https://github.com/LukeWood/tiny-pubsub.git"
   },
   "author": "Luke Wood",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LukeWood/vanilla-pubsub/issues"
+    "url": "https://github.com/LukeWood/tiny-pubsub/issues"
   },
-  "homepage": "https://github.com/LukeWood/vanilla-pubsub#readme",
+  "homepage": "https://github.com/LukeWood/tiny-pubsub#readme",
   "devDependencies": {
     "mocha": "^6.1.4"
   }

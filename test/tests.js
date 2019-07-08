@@ -1,5 +1,5 @@
 const assert = require('assert');
-const {subscribe, publish, unsubscribe, cancel} = require('../src/pubsub')
+const {subscribe, publish, unsubscribe, cancel} = require('../pubsub')
 
 let valueSet = false;
 function setTrue() {
