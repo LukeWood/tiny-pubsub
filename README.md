@@ -1,6 +1,8 @@
 # tiny-pubsub
 tiny-pubsub is a __super__ simple event management package written in javascript with no dependencies.
 
+right now tiny-pubsub is 854 bytes.
+
 It is written in ES module syntax.
 
 # Installation
