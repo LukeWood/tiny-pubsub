@@ -1,5 +1,5 @@
 # vanilla-pubsub
-Vanilla-pubsub is a *super* simple event management package written in javascript with no dependencies.
+Vanilla-pubsub is a _super_ simple event management package written in javascript with no dependencies.
 
 It is written in ES module syntax.
 
