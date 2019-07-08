@@ -1,0 +1,22 @@
+{
+  "name": "vanilla-pubsub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeWood/vanilla-pubsub.git"
+  },
+  "author": "Luke Wood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeWood/vanilla-pubsub/issues"
+  },
+  "homepage": "https://github.com/LukeWood/vanilla-pubsub#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
