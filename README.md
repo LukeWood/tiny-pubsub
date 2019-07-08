@@ -20,8 +20,10 @@ publish("chatroom-join", "Luke")
 Send pull requests.
 
 # Testing
+```bash
 npm install --dev
 npm run test
+```
 
 # License
 MIT License.
