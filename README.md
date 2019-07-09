@@ -1,7 +1,13 @@
 # tiny-pubsub
-tiny-pubsub is a __super__ simple event management package written in javascript with no dependencies.
+tiny-pubsub is a __super__ simple event management package written in javascript with __no dependencies__.
 
-It is written in ES module syntax.
+### You don't need a framework
+
+Right now tiny-pubsub is __854 bytes__.
+
+It handles most of the UI interactions for my game [bulletz.io](https://bulletz.io).
+
+I wholeheartedly believe my game is more performant and simple due to the lack of framework.
 
 # Installation
 ```bash
@@ -15,7 +21,7 @@ The api only has three functions.  `publish`, `subscribe`, and `unsubscribe`.
 const {subscribe, publish, unsubscribe} = require('tiny-pubsub')
 
 let logJoin = (name) => console.log(`${name} has joined the room!`);
-subscribe("chatroom-join", (name) =>)
+subscribe("chatroom-join", logJoin)
 publish("chatroom-join", "Luke")
 // > Luke has joined the room!
 unsubscribe(logJoin)
