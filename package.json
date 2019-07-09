@@ -1,6 +1,6 @@
 {
   "name": "tiny-pubsub",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "a tiny event handling library with no dependencies",
   "files": [
     "pubsub.js",
