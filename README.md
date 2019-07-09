@@ -21,7 +21,7 @@ The api only has three functions.  `publish`, `subscribe`, and `unsubscribe`.
 const {subscribe, publish, unsubscribe} = require('tiny-pubsub')
 
 let logJoin = (name) => console.log(`${name} has joined the room!`);
-subscribe("chatroom-join", (name) =>)
+subscribe("chatroom-join", logJoin)
 publish("chatroom-join", "Luke")
 // > Luke has joined the room!
 unsubscribe(logJoin)
