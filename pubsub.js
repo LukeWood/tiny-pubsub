@@ -19,7 +19,12 @@ function publish(evt) {
 
 function unsubscribe(evt, func) {
   var oldSubscriptions = subscriptions[evt] || [];
-  var newSubscriptions = oldSubscriptions.filter((item) => item !== func);
+  var newSubscriptions = [];
+  for(let i = 0; i < oldSubscriptions.length; i++) {
+    if (oldSubscriptions[i] != func) {
+      newSubscriptions.push(oldSubscriptions[i]);
+    }
+  }
   subscriptions[evt] = newSubscriptions;
 }
 
