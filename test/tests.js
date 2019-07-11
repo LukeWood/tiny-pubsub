@@ -18,6 +18,14 @@ describe('pubsub', () => {
       assert.equal(valueSet, true)
     })
 
+		it('should call let object singletons be used as event declarations', () => {
+			setFalse();
+			let EXAMPLE_EVENT = {};
+			subscribe(EXAMPLE_EVENT, setTrue);
+			publish(EXAMPLE_EVENT)
+			assert.equal(valueSet, true)
+		})
+
     it('should call subscribed functions with arguments', () => {
       setFalse();
       subscribe('should-set', (arg) => {

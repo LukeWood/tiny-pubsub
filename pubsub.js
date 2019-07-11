@@ -27,4 +27,4 @@ function cancel(evt) {
   delete subscriptions[evt];
 }
 
-export {subscribe, publish, unsubscribe, cancel}
+module.exports = {subscribe, publish, unsubscribe, cancel}
