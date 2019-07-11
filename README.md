@@ -1,7 +1,6 @@
 # tiny-pubsub
+### You probably don't need a framework
 tiny-pubsub is a __super__ simple event management package written in javascript with __no dependencies__.
-
-### You don't need a framework
 
 Right now tiny-pubsub is __854 bytes__.
 
