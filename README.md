@@ -16,14 +16,14 @@ npm install --save tiny-pubsub
 # Usage
 The api only has three functions.  `publish`, `subscribe`, and `unsubscribe`.
 
+__event_definitions.js__
 ```javascript
-// event_definitions.js
 // Using object singletons is a good way to register events.
 const CHATROOM_JOIN = {};
 export {CHATROOM_JOIN}
 ```
+__app.js__
 ```javascript
-// app.js
 import {subscribe, publish, unsubscribe} from 'tiny-pubsub'
 import {CHATROOM_JOIN} from './event_definitions'
 let logJoin = (name) => console.log(`${name} has joined the room!`);
