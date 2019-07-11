@@ -37,6 +37,7 @@ publish(CHATROOM_JOIN, "Luke")
 // alternatively you can use strings as event identifiers
 subscribe("chatroom-join", logJoin)
 publish("chatroom-join", "Luke")
+// > Luke has joined the room!
 ```
 
 # Contributing
