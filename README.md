@@ -4,9 +4,7 @@ tiny-pubsub is a __super__ simple event management package written in javascript
 
 Right now tiny-pubsub is __827 bytes__.
 
-It handles most of the UI interactions for my game [bulletz.io](https://bulletz.io).
-
-I wholeheartedly believe my game is more performant and simple due to the lack of framework.
+This is in no way mean't to replace rxjs, it is a feature-light alternative.
 
 # Installation
 ```bash
