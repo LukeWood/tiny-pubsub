@@ -4,7 +4,9 @@ tiny-pubsub is a __super__ simple event management package written in javascript
 
 Right now tiny-pubsub is __827 bytes__.
 
-This is in no way mean't to replace rxjs, it is a feature-light alternative.
+This is in no way mean't to replace rxjs.
+This is a small, synchronously operating, feature-light event driven programming library.
+RxJs is a full featured event driven programming library.
 
 # Installation
 ```bash
